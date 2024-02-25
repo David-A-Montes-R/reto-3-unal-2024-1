@@ -37,7 +37,6 @@ Operacion: divisiones
 ```
 Diagrama de flujo correspondiente:
 
-```mermaid
 flowchart TD;
     A(inicio)
     A-->|crear| C[lista N para números n];
@@ -58,7 +57,7 @@ flowchart TD;
     Q-->R{¿es i < n ?}-->|sí| K;
      Q-->R{¿es i < n ?}-->|No| S[acabar las divisiones];
      S-->Z(finalizar el proceso);
-```
+
 Pseudocódigo para encontrar las raíces cuadradas de un número:
 ```
 Algoritmo para calcular la raíz cuadrada de un número
