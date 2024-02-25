@@ -115,3 +115,10 @@ K--> |sí|F
 K --> |no| M[escribir RI]
 M -->N(Finalizar proceso)
 ```
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
