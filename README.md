@@ -58,7 +58,7 @@ flowchart TD;
     Q-->R{¿es i < n ?}-->|sí| K
      Q-->R{¿es i < n ?}-->|No| S[acabar las divisiones]
      S-->Z(finalizar el proceso)
-```
+
 Pseudocódigo para encontrar las raíces cuadradas de un número:
 ```
 Algoritmo para calcular la raíz cuadrada de un número
@@ -114,4 +114,4 @@ L-->K
 K--> |sí|F
 K --> |no| M[escribir RI]
 M -->N(Finalizar proceso)
-```
+
