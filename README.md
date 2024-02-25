@@ -38,7 +38,7 @@ Operacion: divisiones
 Diagrama de flujo correspondiente:
 
 ```mermaid
-flowchart TD;
+graph TD;
     A(inicio)
     A-->|crear| C[lista N para números n]
     A-->|crear| D[lista P para números p]
@@ -91,7 +91,7 @@ Fin
 El diagrama de flujo correspondiente:
 
 ```mermaid
-flowchart TD;
+graph TD;
 A(Algoritmo para calcular la raíz cuadrada de un número)
 A-->|crear| B[Lista N para n]
 A-->|crear| C[Lista i para i< n]
@@ -114,4 +114,11 @@ L-->K
 K--> |sí|F
 K --> |no| M[escribir RI]
 M -->N(Finalizar proceso)
+```
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
