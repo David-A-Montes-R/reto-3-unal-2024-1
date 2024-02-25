@@ -36,7 +36,7 @@ Operacion: divisiones
     Fin
 ```
 Diagrama de flujo correspondiente:
-
+```mermaid
 flowchart TD;
     A(inicio)
     A-->|crear| C[lista N para números n];
