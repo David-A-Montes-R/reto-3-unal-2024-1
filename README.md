@@ -92,8 +92,7 @@ El diagrama de flujo correspondiente:
 
 ```mermaid
 graph TD;
-A(Algoritmo para calcular la raíz cuadrada de un número)
-A-->|crear| B[Lista N para n]
+A(Algoritmo para calcular raíces cuadradas)-->|crear| B[Lista N para n]
 A-->|crear| C[Lista i para i< n]
 A-->|crear| D[Lista R para r]
 A-->|crear| J[Lista RI para √i ]
