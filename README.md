@@ -69,28 +69,4 @@ Fin
 ```
 El diagrama de flujo correspondiente:
 
-```mermaid
-flowchart TD;
-A(Algoritmo para calcular la raíz cuadrada de un número);
-A-->|crear| B[Lista N para n];
-A-->|crear| C[Lista i para i< n];
-A-->|crear| D[Lista R para r];
-A-->|crear| J[Lista RI para √i ];
-
-D-->G[r= r menor que i+1 y mayor que i];
-A-->|crear| E[Lista I2 para i*i];
-
-B-->F{¿es i*i menor que n?};
-C-->F{¿es i*i menor que n?};
-E-->F{¿son i*i y r*r menores que n?};
-F-->|sí| H[r= i+0.01];
-H-->F;
-F-->|no| I[clasificar  último r];
-I--> L[i:= i+1];
-I-->|en| J;
-H--> K{¿Es i*i menor que n?};
-L-->K;
-K--> |sí|F;
-K --> |no| M[escribir RI];
-M -->N(Finalizar proceso);
-```
+[![](https://mermaid.ink/img/pako:eNp9kk1OG0EQha9S6hXhJ8IsB5IIsB2MDYvAbiaSKz1tKKmn29T0CBmP9zlD7sAF2CDhm-QkqZ4ZK5ETZdU_7-tXT9W1VNrnRiUqczPrH_U9coDb_nHmTndO7Z1nCoWHOTKCRqsriwwWgXH9_AS6wpwxR8gNVA7c-qUw7N_FxwcHH2vNBrmGs3RCZUC4bm3c1y39vNOp1enkb6TfIV9ahLf1y40-aoGf338QRChzfcE-p_wBGArjPMNDZYD2erCAAheb87bhoDMcHXWhdqm1OxNouHx7NWW8-8PSfVoJcP5_edDJpXeNvgDe7XLJi9_cMEYp1881XMTotHf4_rAXA1xEgw3gfA2jVFssaUZaPgbWLzaQ_FfToJEwMEkpiQa9zU1tnPSrs4KxhBn8O-tE9LGs48g1YWLhMTTHWPoqNaVm-kYsfY_2V1G73hmSQ0tPkmfOXpuyGYjpdKr2lYxHgZTLuC0zB5CpcG8Kk6lEtrmZYWVDJpO4EhSr4G8WTqskcGX2VTXPMZg-4R1joZIZ2tKsfgHVhfAg?type=png)](https://mermaid.live/edit#pako:eNp9kk1OG0EQha9S6hXhJ8IsB5IIsB2MDYvAbiaSKz1tKKmn29T0CBmP9zlD7sAF2CDhm-QkqZ4ZK5ETZdU_7-tXT9W1VNrnRiUqczPrH_U9coDb_nHmTndO7Z1nCoWHOTKCRqsriwwWgXH9_AS6wpwxR8gNVA7c-qUw7N_FxwcHH2vNBrmGs3RCZUC4bm3c1y39vNOp1enkb6TfIV9ahLf1y40-aoGf338QRChzfcE-p_wBGArjPMNDZYD2erCAAheb87bhoDMcHXWhdqm1OxNouHx7NWW8-8PSfVoJcP5_edDJpXeNvgDe7XLJi9_cMEYp1881XMTotHf4_rAXA1xEgw3gfA2jVFssaUZaPgbWLzaQ_FfToJEwMEkpiQa9zU1tnPSrs4KxhBn8O-tE9LGs48g1YWLhMTTHWPoqNaVm-kYsfY_2V1G73hmSQ0tPkmfOXpuyGYjpdKr2lYxHgZTLuC0zB5CpcG8Kk6lEtrmZYWVDJpO4EhSr4G8WTqskcGX2VTXPMZg-4R1joZIZ2tKsfgHVhfAg)
