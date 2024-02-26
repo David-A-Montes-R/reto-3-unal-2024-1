@@ -37,27 +37,7 @@ Operacion: divisiones
 ```
 Diagrama de flujo correspondiente:
 
-```mermaid
-flowchart TD;
-    A(inicio)
-    A-->|crear| C[lista N para números n];
-    A-->|crear| D[lista P para números p];
-    A-->|crear| E[lista NP para números np];
-    A-->|crear| F[lista RN para rn];
-    G[n=1]-->E;
-    C-->H[i=n >1];
-    C-->I[calcular todas las raices cuadradas de los números n]-->|clasificar las raíces en:| F;
-    H-->O{¿es i < rn?}-->|sí| K;
-    H-->O{¿es i < rn?}-->|No|P[n=n+1]-->O;
-    K[dividir todos los números n tal que n/i];
-    K-->M{¿El residuo de n/i es cero?};
-    M-->|sí| N[Clasificar n]-->|en| E;
-    M-->|no| T[Clasificar n]-->|en| D;
-    E-->Q[i+1];
-    Q-->R{¿es i < n ?}-->|sí| K;
-     Q-->R{¿es i < n ?}-->|No| S[acabar las divisiones];
-     S-->Z(finalizar el proceso);
-```
+[![](https://mermaid.ink/img/pako:eNp9k91O4zAQhV9l5CsQoBW35U-rtguoovyUq00qdbBdGMkdF8fZ1W7TR-oLcIO0fbGdtG7LQpdIkZKj7zjnjJ2J0t5Y1VA5D53_qZ8wRLhvHeUMcn3dISZNfje9HhycVjpYDBU0M0dFROjCGAMCz19GNvgCuH_0EW4l-OYdPN4Gt1crv6d5K_4t4XcpSVgnOM_45LAvaDsJTXm-yOiE4fSw_0a7zDQ6XToMEL3BApzcAUnbAnSJJmAtGguuTrFpukghLA1Ji3fpms9qm-WGREvfuBDwevLnVXSCY0l4Nq2txXxWQedzpuurG6nBe4si1wnuZIZ-kKFFXonyby6I6OC5tMBfaFWzI-4rWb7tINiCTOnrPgJA3VF8Z9NEXq2jdbPmptyyrWXZn7cg-wrut3OrQ9QW4TajvfXIb0W421Rl2DKO_0EyD-hlqPEhDbweREGebbFaHnoCft8ZEqOj34JZB-PgZVf8riCDwUDtKxnVCMnIwZ_UrlzFJzuyuWrIo7FDLF3M5Z-YCopl9L1frFUjhtLuq3JsMNoW4WPA0VKc_gW30BXb?type=png)](https://mermaid.live/edit#pako:eNp9k91O4zAQhV9l5CsQoBW35U-rtguoovyUq00qdbBdGMkdF8fZ1W7TR-oLcIO0fbGdtG7LQpdIkZKj7zjnjJ2J0t5Y1VA5D53_qZ8wRLhvHeUMcn3dISZNfje9HhycVjpYDBU0M0dFROjCGAMCz19GNvgCuH_0EW4l-OYdPN4Gt1crv6d5K_4t4XcpSVgnOM_45LAvaDsJTXm-yOiE4fSw_0a7zDQ6XToMEL3BApzcAUnbAnSJJmAtGguuTrFpukghLA1Ji3fpms9qm-WGREvfuBDwevLnVXSCY0l4Nq2txXxWQedzpuurG6nBe4si1wnuZIZ-kKFFXonyby6I6OC5tMBfaFWzI-4rWb7tINiCTOnrPgJA3VF8Z9NEXq2jdbPmptyyrWXZn7cg-wrut3OrQ9QW4TajvfXIb0W421Rl2DKO_0EyD-hlqPEhDbweREGebbFaHnoCft8ZEqOj34JZB-PgZVf8riCDwUDtKxnVCMnIwZ_UrlzFJzuyuWrIo7FDLF3M5Z-YCopl9L1frFUjhtLuq3JsMNoW4WPA0VKc_gW30BXb)
 Pseudocódigo para encontrar las raíces cuadradas de un número:
 ```
 Algoritmo para calcular la raíz cuadrada de un número
