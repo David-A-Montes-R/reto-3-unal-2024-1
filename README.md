@@ -1,4 +1,4 @@
-![imagen de equipo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.redbubble.com%2Fi%2Fsticker%2FHttp-error-418-I-m-a-teapot-by-razaldo%2F91052843.EJUG5&psig=AOvVaw0lo6n9u2eRShp1BGE3pLwC&ust=1709052264346000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIDXxYH9yYQDFQAAAAAdAAAAABAE)
+[st-small-507x507-pad-600x600-f8f8f8-u1.jpg](https://postimg.cc/3djk4gWC)
 Pseudocódigo para discriminar entre números primos:
 ```
 algoritmo de discrimincación entre números n primos y no primos
