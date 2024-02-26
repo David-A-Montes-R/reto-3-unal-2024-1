@@ -1,4 +1,4 @@
-[st-small-507x507-pad-600x600-f8f8f8-u1.jpg](https://postimg.cc/3djk4gWC)
+[![st-small-507x507-pad-600x600-f8f8f8-u1.jpg](https://i.postimg.cc/tCwWckjf/st-small-507x507-pad-600x600-f8f8f8-u1.jpg)](https://postimg.cc/3djk4gWC)
 Pseudocódigo para discriminar entre números primos:
 ```
 algoritmo de discrimincación entre números n primos y no primos
